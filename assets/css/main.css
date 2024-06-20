@@ -1200,7 +1200,7 @@ footer .copyright {
 /*--------------------------------------------------------------
 # Media Query
 --------------------------------------------------------------*/
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   #allReels .card .blackout {
     height: 260px;
   }
@@ -1208,9 +1208,14 @@ footer .copyright {
   #solutions #marketing p {
     margin-bottom: 5px;
   }
-  #jobResults #marketing,
-  #solutions #marketing {
+  #jobResults #marketing {
     padding: 20px 24px !important;
+  }
+  #solutions #marketing {
+    padding: 12px 24px !important;
+  }
+  #register .col-lg-7 {
+    height: 92vh;
   }
 }
 @media (max-width: 1200px) {
@@ -1224,6 +1229,9 @@ footer .copyright {
   #jobResults #software,
   #solutions #software {
     padding: 28px 24px !important;
+  }
+  #register .col-lg-7 {
+    height: 80vh;
   }
 }
 @media (max-width: 992px) {
