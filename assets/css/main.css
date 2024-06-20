@@ -573,8 +573,7 @@ footer .copyright {
 /*--------------------------------------------------------------
 # register page
 --------------------------------------------------------------*/
-
-#register a,
+#register small a,
 #register form label span {
   color: var(--fulvous);
 }
@@ -1211,7 +1210,7 @@ footer .copyright {
   }
   #jobResults #marketing,
   #solutions #marketing {
-    padding: 8px 24px !important;
+    padding: 20px 24px !important;
   }
 }
 @media (max-width: 1200px) {
